@@ -70,12 +70,19 @@ export default  [
         pathName:'Maplist2_2',
         component: (resolve) => require(['../views/Maplist2_2.vue'], resolve),       
       },
-       {
+      {
         name:'鼠标拉框放大地图',
         path:'/maplist2_3',
         id:'2203',
         pathName:'Maplist2_3',
         component: (resolve) => require(['../views/Maplist2_3.vue'], resolve),       
+      },
+      {
+        name:'鼠标绘制点线面',
+        path:'/maplist2_4',
+        id:'2204',
+        pathName:'Maplist2_4',
+        component: (resolve) => require(['../views/Maplist2_4.vue'], resolve),       
       },
     ]
   }
